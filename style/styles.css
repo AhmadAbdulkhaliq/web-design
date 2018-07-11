@@ -1,0 +1,281 @@
+body{
+    font-family: sans-serif;
+    padding-left:250px; 
+    padding-right: 250px;
+    
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+
+}
+nav a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav a:hover{
+    font-size: 25;
+    text-transform: capitalize;
+}
+
+#top{
+       background-color: #FFFAF0;
+       height: 300px;
+       
+}
+
+.h1Top,.h2Top,.pTop{
+    text-align: center;
+    color: #008B8B;
+    padding-top: 30px;
+    
+}
+
+#about{
+    background-color: #808080;
+    height: 300px;
+}
+
+.insideAbout{
+    height: 200px;
+    background-color: #008B8B;
+    margin-left: 40px;
+    margin-right:40px ;
+    text-align: center;
+}
+
+
+#Skill{
+    height: 600px;
+    background-color:#FFFAF0; 
+}
+
+.h2Skill,.h3Skill,.pSkill{
+    color: #008B8B;
+}
+.h2Skill{
+    text-align: center;
+}
+
+.line1{
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+.one1{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    border: 1px solid black;
+    text-align: center;
+}
+.two1{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.three1{
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.line2{
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+.one2{
+    position: absolute;
+    left: 10%;
+    top: 90%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.two2{
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.three2{
+    position: absolute;
+    left: 70%;
+    top: 90%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.image{
+    height: 300px;
+    width: 100%;
+}
+
+#experience{
+    background-color: #FFFAF0;
+       height: 500px;
+}
+.h2Exp,.h3Exp,.pExp{
+    color: #008B8B;
+    text-align: center;
+}
+
+.eline1{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.eone1{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+.etwo1{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.ethree1{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+
+.eline2{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.eone2{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+.etwo2{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+.ethree2{
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+
+.eline3{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.eone3{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.etwo3{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+.ethree3{
+    position: absolute;
+    left: 70%;
+    top: 30%;
+}
+
+.eline4{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.eone4{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+}
+.etwo4{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
+.ethree4{
+    position: absolute;
+    left: 70%;
+    top: 35%;
+}
+.fas {
+   font-size: 30px;
+}
+
+#input{
+    background-color: #008B8B;
+    height: 500px;
+}
+.h2Input{
+    color: white;
+    text-align: center;
+}
+.namei{
+    width: 600px;
+    margin-left: 225px;
+    margin-top: 25px;
+    padding: 5px 0 5px 0;
+}
+.emaili{
+    width: 600px;
+    margin-left: 225px;
+    margin-top: 20px;
+    padding: 5px 0 5px 0;
+}
+.msji{
+    width: 600px;
+    margin-left: 225px;
+    margin-top: 20px;
+    padding: 5px 0 60px 0;
+}
+.buttoni{
+    background-color: #808080;
+    border-color: #808080;
+    width: 600px;
+    margin-left: 225px;
+    margin-top: 20px;
+    padding: 5px 0 5px 0;
+}
+
+.fab{
+    font-size: 50px;
+    color: white;
+}
+
+.list ul{
+   
+        list-style-type: none;
+        position: static;
+        margin-left: 185px;
+        margin-top: 30px;
+        
+}
+.list li{
+    float: left;
+}
+
+.list li a{
+    display: block;
+    margin-right: 140px;
+}
